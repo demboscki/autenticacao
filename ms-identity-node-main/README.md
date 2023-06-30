@@ -1,11 +1,11 @@
 ---
 page_type: sample
 languages:
-- javascript
-- nodejs
+  - javascript
+  - nodejs
 products:
-- msal-node
-- azure-active-directory
+  - msal-node
+  - azure-active-directory
 description: "Add authentication to a Node.js web application with the Microsoft Authentication Library for Node.js (MSAL Node)."
 urlFragment: "ms-identity-node"
 ---
@@ -25,15 +25,15 @@ This sample demonstrates the following MSAL Node concepts:
 
 ## Contents
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `App/`            | Application source code resides here.      |
-| `AppCreationScripts/` | Contains PowerShell scripts for automating app registration.      |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
+| File/folder           | Description                                                  |
+| --------------------- | ------------------------------------------------------------ |
+| `App/`                | Application source code resides here.                        |
+| `AppCreationScripts/` | Contains PowerShell scripts for automating app registration. |
+| `.gitignore`          | Define what to ignore at commit time.                        |
+| `CHANGELOG.md`        | List of changes to the sample.                               |
+| `CONTRIBUTING.md`     | Guidelines for contributing to the sample.                   |
+| `README.md`           | This README file.                                            |
+| `LICENSE`             | The license for the sample.                                  |
 
 **Note:** This sample was bootstrapped using [express-generator](https://expressjs.com/en/starter/generator.html).
 
@@ -63,13 +63,13 @@ This sample demonstrates the following MSAL Node concepts:
 1. Configure the Express session secret:
    1. Replace the string `"Enter_the_Express_Session_Secret_Here"` with a hard to guess value, such as your client secret.
 1. To start the sample application, run `npm start`.
-1. Finally, open a browser and navigate to [http://localhost:3000](http://localhost:3000).
+1. Finally, open a browser and navigate to [http://localhost:3001](http://localhost:3001).
 
 > :information_source: To configure this app for tenants on Sovereign/National clouds, see: [Use MSAL in a national cloud environment](https://docs.microsoft.com/azure/active-directory/develop/msal-national-cloud)
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit <https://cla.opensource.microsoft.com>.
 

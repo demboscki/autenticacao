@@ -12,8 +12,8 @@
       "Name": "ms-identity-node",
       "Kind": "WebApp",
       "Audience": "AzureADMyOrg",
-      "HomePage": "http://localhost:3000",
-      "ReplyUrls": "http://localhost:3000/auth/redirect",
+      "HomePage": "http://localhost:3001",
+      "ReplyUrls": "http://localhost:3001/auth/redirect",
       "PasswordCredentials": "Auto"
     }
   ],

@@ -9,7 +9,7 @@
 		"x-ms-name": "ms-identity-node",
 		"x-ms-version": "2.0",
 		"replyUrlsWithType": [{
-			"url": "http://localhost:3000/auth/redirect",
+			"url": "http://localhost:3001/auth/redirect",
 			"type": "Web"
 		}],
 		"oauth2AllowImplicitFlow": false,
